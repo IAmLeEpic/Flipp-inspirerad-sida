@@ -34,7 +34,7 @@
   top: 0;
   width: 250px;
   list-style: none;
-  margin: 0;
+  margin-right: 50px;
   padding: 0;
 }
 
@@ -113,8 +113,21 @@
 
 }
 
-#text1 {
+/* Homepage Container */
+#homePage {
+  padding: 0;
+  margin: 0;
   height: 800px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("bgHome.jpg");
+}
+
+/* Aboutpage Container */
+#aboutPage {
+  height: 800px;
+  padding: 0;
+  margin: 0;
   background-size: cover;
   background-attachment: fixed;
   background-image: url("bg1.jpg");
@@ -122,6 +135,8 @@
 
 #text2 {
   height: 800px;
+  padding: 0;
+  margin: 0;
   background-size: cover;
   background-attachment: fixed;
   background-image: url("bg2.jpg");
@@ -129,6 +144,8 @@
 
 #text3 {
   height: 800px;
+  padding: 0;
+  margin: 0;
   background-size: cover;
   background-attachment: fixed;
   background-image: url("bg3Alt.jpg");
@@ -136,6 +153,8 @@
 
 #text4 {
   height: 800px;
+  padding: 0;
+  margin: 0;
   background-size: cover;
   background-attachment: fixed;
   background-image: url("bg4Alt.jpg");
@@ -145,8 +164,8 @@
   margin-left: 50px;
   margin-right: 50px;
   font-size: 20px;
-  color: white;
   position: relative;
+  color: white;
   z-index: 10;
 
   color: #fff;
@@ -157,16 +176,63 @@
     1px 1px 0 black;
 }
 
-#anch1 {
+/* Home Page */
+#homePageTitle {
+  margin-top: 100px;
   text-align: center;
   color: white;
+  font-size: 100px;
+  font-family: 'Indie Flower', cursive;
+}
 
-  color: #fff;
-    text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
+#homePageContent {
+  margin-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px ;
+  padding-right: 30px ;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  background-color: white;
+  color: black;
+  z-index: 10;
+}
+
+/* About Page */
+#aboutTitle {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.aboutContent {
+  width: 45%;
+  color: black;
+  font-family: 'Indie Flower', cursive;
+  margin: auto;
+  margin-top: 0;
+}
+
+#aboutColumns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  background-color: white;
+  z-index: 10;
+  position: relative;
 }
 
 #anch2 {

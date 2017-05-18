@@ -142,7 +142,7 @@
   background-image: url("bg2.jpg");
 }
 
-#text3 {
+#contactPage {
   height: 800px;
   padding: 0;
   margin: 0;
@@ -151,7 +151,7 @@
   background-image: url("bg3Alt.jpg");
 }
 
-#text4 {
+#linksPage {
   height: 800px;
   padding: 0;
   margin: 0;
@@ -279,16 +279,119 @@
   position: relative;
 }
 
-#anch3 {
+/* Contact Page */
+#contactTitle {
   text-align: center;
   color: white;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: 'Indie Flower', cursive;
+}
 
-  color: #fff;
-    text-shadow:
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
+.contactContent {
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px ;
+  padding-right: 30px ;
+  font-size: 20px;
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  background-color: white;
+  color: black;
+  z-index: 10;
+}
+
+#fb {
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+#insta {
+  margin-left: 10%;
+  margin-right: 2%;
+}
+
+#snap {
+  margin-left: 13%;
+  margin-right: 2%;
+}
+
+#contactMail {
+  text-align: center;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'Indie Flower', cursive;
+}
+
+/*Links Page */
+#linksTitle {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+  font-size: 100px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  justify-content: center;
+  width: 1200px;
+  height: 250px;
+}
+
+#flex-item {
+  background-color: white;
+  width: 250px;
+  height: 500px;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+#disc {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+  border-bottom: 6px black;
+}
+
+#cdon {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#ebay {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#amazon {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#flex-item-text {
+  margin-top: 10%;
+  margin-left: 5%;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
 }
 
 #anch4 {
